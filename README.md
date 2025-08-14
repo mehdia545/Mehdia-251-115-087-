@@ -1,4 +1,4 @@
-solution 2 :
+solution 3 :
 ```c
 #include<stdio.h>
 int main()
@@ -28,3 +28,48 @@ int main()
         return 0;
     }
 ```
+sulution 4:
+```c
+#include<stdio.h>
+int main()
+{int M,K;
+scanf("%d %d",&M,&K);
+int r = M%K;
+printf("%d\n",r);
+
+return 0;
+
+
+}
+```
+problem 1:
+
+#include<stdio.h>
+int main()
+{
+   int A,B,sum;
+   scanf("%d %d",&A &B);
+   sum = A + B;
+   Printf( "%d", sum);
+
+   return 0;
+}
+```
+problem 2:
+```c
+#include<stdio.h>
+int main()
+{
+int a;
+scanf("%d",&a);
+for(int i=1;i<=a;i++){
+    if(a%i == 0)
+    printf("%d\n",i);
+}
+return 0;
+}
+
+```
+
+
+
